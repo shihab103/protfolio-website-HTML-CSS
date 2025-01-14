@@ -181,6 +181,9 @@ footer input[type="submit"]{
     footer input[type="text"],footer input[type="email"]{
         padding: 0;
     }
+    .about{
+        padding: 10px;
+    }
 }
 @media screen and (min-width:400px) and (max-width:600px) {
     .skills-container{
@@ -201,10 +204,16 @@ footer input[type="submit"]{
     footer input[type="text"],footer input[type="email"]{
         padding: 0;
     }
+    .about{
+        padding: 10px;
+    }
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     .skills-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+    }
+    .about{
+        padding: 30px;
     }
 }
