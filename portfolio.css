@@ -184,13 +184,32 @@ footer input[type="submit"]{
     .about{
         padding: 10px;
     }
+    .banner{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav,nav>ul{
+        flex-direction: column;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    nav ul li{
+        margin: 0;
+    }
 }
 @media screen and (min-width:400px) and (max-width:600px) {
     .skills-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    .resume-container{
+    .resume-container,.banner{
         flex-direction: column;
     }
     footer{
@@ -207,6 +226,25 @@ footer input[type="submit"]{
     .about{
         padding: 10px;
     }
+    .banner{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav,nav>ul{
+        flex-direction: column;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    nav ul li{
+        margin: 0;
+    }
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     .skills-container{
@@ -215,5 +253,12 @@ footer input[type="submit"]{
     }
     .about{
         padding: 30px;
+    }
+    .banner{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
     }
 }
